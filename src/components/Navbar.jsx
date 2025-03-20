@@ -39,7 +39,14 @@ const Navbar = () => {
                         <img src={pic} className='h-12 w-12 rounded-full ' alt="" />
                     </div>
                     <div className='items-center justify-between mt-2.5'>
-                        <h1 className='font-semibold text-xl cursor-pointer '><span className='text-white-500 text-3xl pfl'>Portfolio</span>
+                        <h1 className='font-semibold text-xl cursor-pointer '>
+                            {/* <span className='text-white-500 text-3xl pfl'>Portfolio</span> */}
+                            <Link to="Home"
+                                smooth={true}
+                                duration={500}
+                                offset={70}
+                                activeClass='active'
+                            ><span className='text-white-500 text-3xl pfl'>Portfolio</span></Link>
                         </h1>
                     </div>
                 </div>
