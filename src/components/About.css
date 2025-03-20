@@ -1,0 +1,5 @@
+.aboutme {
+    background: linear-gradient(to right, #a100ff, #ff5e62, #ff9900);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }

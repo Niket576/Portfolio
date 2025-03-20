@@ -1,4 +1,5 @@
 import React from "react";
+import './Project.css';
 
 const projects = [
   { id: "01", 
@@ -17,7 +18,7 @@ const Project = () => {
   return (
     <div name="Projects" className='max-w-screen-2xl container mx-auto px-4 md:px-20 my-16 text-white mb-20'>
         <div className='flex justify-center'>
-            <h1 className='text-5xl font-bold mb-2 mt-10'>PROJECTS</h1>
+            <h1 className='text-5xl font-bold mb-2 mt-10 projects'>PROJECTS</h1>
         </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 my-10 ">
         {projects.map((project) => (

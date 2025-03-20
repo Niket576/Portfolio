@@ -32,7 +32,7 @@ const Contact = () => {
     <>
         <div name="Contact" className='max-w-screen-2xl container mx-auto px-4 md:px-20 my-16 text-white '>
             <div className='flex justify-center mt-20'>
-                <h1 className='text-5xl font-semibold mb-10'>Contact Me</h1>
+                <h1 className='text-5xl font-semibold mb-10 contactme'>Contact Me</h1>
                 {/* <span>Please fill out the form below to contact me</span> */}
             </div>
             <div className='flex flex-col md:flex-row items-center justify-evenly'>

@@ -1,12 +1,13 @@
 import React from 'react'
 import pic from '/public/Niket_img.jpg';
+import './About.css';
 
 
 const About = () => {
   return (
     <div name="About" className='max-w-screen-2xl container mx-auto px-4 md:px-20 my-16 text-white mb-20'>
       <div className='flex justify-center'>
-        <h1 className='text-5xl font-semibold mb-0'>ABOUT ME</h1>
+        <h1 className='text-5xl font-semibold mb-0 aboutme'>ABOUT ME</h1>
       </div>
       <div className='flex flex-col md:flex-row gap-20'>
         <div className='md:w-30% md:ml-35 md:mt-20 mt-5 order-1'>
