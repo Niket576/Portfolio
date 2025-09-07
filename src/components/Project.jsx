@@ -41,9 +41,9 @@ const projects = [
     viewlink: "http://radiant-selkie-aaf49e.netlify.app/",
     sourcecodelink: "https://github.com/Niket576/TaskAfront.git",
     para: `Built a secure authentication system with multifactor verification using Twilio voice OTP and 
-    email OTP. Implemented JWT-based sessions with HTTP-only cookies, expiry checks, and route protection. 
-    Designed a dynamic UI with modular components, loading states, error handling, and OTP retry limits for 
-    enhanced experience.`,
+    email OTP. Implemented JWT-based sessions with HTTP-only cookies, expiry checks, and protection. 
+    Designed a dynamic UI with modular components, loading states, error handling, and OTP retry limits 
+    for enhanced experience.`,
   },
 
   {
