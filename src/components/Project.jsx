@@ -4,13 +4,12 @@ import "./Project.css";
 const projects = [
   {
     id: "01",
-    title: "Whisper - Language Exchange Platform",
+    title: "Whisper",
     viewlink: "https://whisper-app-fa6u.onrender.com/",
     sourcecodelink: "https://github.com/Niket576/Whisper_App.git",
-    para: `A real-time communication platform for language learners featuring peer-to-peer video calls, 
-    instant messaging, and customizable themes. Built with the MERN stack, it supports secure user authentication, 
-    dynamic state management, and a scalable friends system for 1,000+ users. Optimized frontend performance using 
-    TanStack Query and custom hooks, and delivered a highly personalized UI with 32 Tailwind-based themes.`,
+    para: `Whisper is a real-time language exchange platform built with the MERN stack. 
+    It lets learners connect through text, audio, and video using WebRTC and Socket.io, 
+    with secure JWT authentication and a customizable interface powered by Tailwind and DaisyUI.`,
   },
 
   { id: "02", title: "Graphics design" },
