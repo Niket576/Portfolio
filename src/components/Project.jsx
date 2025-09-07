@@ -15,24 +15,24 @@ const projects = [
 
   {
     id: "02",
-    title: "Whisper",
-    viewlink: "https://whisper-app-fa6u.onrender.com/",
-    sourcecodelink: "https://github.com/Niket576/Whisper_App.git",
-    para: `A real-time language exchange platform built with the MERN stack. 
-    It offers seamless text, audio, and video chat using WebRTC and Socket.io, plus a 
-    customizable interface with 32 themes. Whether you're learning a new language or 
-    connecting globally, Whisper makes communication effortless and engaging.`,
+    title: "Maison",
+    viewlink: "http://radiant-selkie-aaf49e.netlify.app/",
+    sourcecodelink: "https://github.com/Niket576/Maison.git",
+    para: `Maison is a modern e-commerce platform built with the MERN stack. It features 
+    secure JWT-based authentication, Stripe-powered checkout, and dynamic coupons. With 
+    Redis caching and optimized backend performance, Maison delivers fast, reliable shopping 
+    across 50+ products and 10+ categories—designed for scale and smooth user experience.`,
   },
 
   {
     id: "03",
-    title: "Whisper",
-    viewlink: "https://whisper-app-fa6u.onrender.com/",
-    sourcecodelink: "https://github.com/Niket576/Whisper_App.git",
-    para: `A real-time language exchange platform built with the MERN stack. 
-    It offers seamless text, audio, and video chat using WebRTC and Socket.io, plus a 
-    customizable interface with 32 themes. Whether you're learning a new language or 
-    connecting globally, Whisper makes communication effortless and engaging.`,
+    title: "Pice",
+    viewlink: "http://localhost:8081/",
+    sourcecodelink: "https://github.com/Niket576/Pice_Mobile.git",
+    para: `Pice is a cross-platform recipe app built with the PERN stack and Expo. It features 
+    secure Clerk-based authentication, real-time search, and personalized recipe filtering. With 
+    embedded YouTube tutorials and a persistent favorites system, Pice delivers an engaging, 
+    interactive, and user-friendly cooking experience for food lovers and culinary enthusiasts worldwide.`,
   },
 
   {
@@ -46,9 +46,9 @@ const projects = [
             Try TextTool today & streamline your text editing experience!`,
   },
 
-  { id: "05", title: "Digital marketing" },
+  { id: "05", title: "" },
 
-  { id: "06", title: "Content writing" },
+  { id: "06", title: "" },
 ];
 
 const Project = () => {
