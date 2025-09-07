@@ -37,6 +37,17 @@ const projects = [
 
   {
     id: "04",
+    title: "Authentication System",
+    viewlink: "http://radiant-selkie-aaf49e.netlify.app/",
+    sourcecodelink: "https://github.com/Niket576/TaskAfront.git",
+    para: `Built a secure authentication system with multifactor verification using Twilio voice OTP 
+    and email OTP via Nodemailer. Implemented JWT-based sessions with encrypted HTTP-only cookies, expiry 
+    checks, and route protection. Designed a dynamic UI with modular components, loading states, error 
+    handling, and OTP retry limits for enhanced user experience.`,
+  },
+
+  {
+    id: "05",
     title: "TextTool",
     viewlink: "https://niket576.github.io/TextTool/",
     sourcecodelink: "https://github.com/Niket576/TextTool.git",
@@ -45,8 +56,6 @@ const projects = [
             for students, writers, and professionals who need a simple yet powerful text editor.
             Try TextTool today & streamline your text editing experience!`,
   },
-
-  { id: "05", title: "" },
 
   { id: "06", title: "" },
 ];
