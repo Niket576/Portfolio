@@ -81,7 +81,7 @@ const Home = () => {
                 <h1 className="font-bold">Currently working on</h1>
                 <div className="flex space-x-5">
                   <a
-                    href="https://www.mongodb.com/products/platform/atlas-database"
+                    href="https://www.mongodb.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
