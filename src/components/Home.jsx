@@ -87,13 +87,25 @@ const Home = () => {
                   >
                     <SiMongodb className="text-xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px] cursor-pointer" />
                   </a>
-                  <a href="" target="_blank" rel="noopener noreferer">
+                  <a
+                    href="https://expressjs.com/"
+                    target="_blank"
+                    rel="noopener noreferer"
+                  >
                     <SiExpress className="text-xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px] cursor-pointer" />
                   </a>
-                  <a href="" target="_blank" rel="noopener noreferrer">
+                  <a
+                    href="https://react.dev/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <IoLogoReact className="text-xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px] cursor-pointer" />
                   </a>
-                  <a href="" target="_blank" rel="noopener noreferrer">
+                  <a
+                    href="https://nodejs.org/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <FaNodeJs className="text-xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px] cursor-pointer" />
                   </a>
                 </div>
