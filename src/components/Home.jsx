@@ -80,10 +80,22 @@ const Home = () => {
               <div className="space-y-2">
                 <h1 className="font-bold">Currently working on</h1>
                 <div className="flex space-x-5">
-                  <SiMongodb className="text-xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px] cursor-pointer" />
-                  <SiExpress className="text-xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px] cursor-pointer" />
-                  <IoLogoReact className="text-xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px] cursor-pointer" />
-                  <FaNodeJs className="text-xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px] cursor-pointer" />
+                  <a
+                    href="https://www.mongodb.com/products/platform/atlas-database"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <SiMongodb className="text-xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px] cursor-pointer" />
+                  </a>
+                  <a href="" target="_blank" rel="noopener noreferer">
+                    <SiExpress className="text-xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px] cursor-pointer" />
+                  </a>
+                  <a href="" target="_blank" rel="noopener noreferrer">
+                    <IoLogoReact className="text-xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px] cursor-pointer" />
+                  </a>
+                  <a href="" target="_blank" rel="noopener noreferrer">
+                    <FaNodeJs className="text-xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px] cursor-pointer" />
+                  </a>
                 </div>
               </div>
             </div>
