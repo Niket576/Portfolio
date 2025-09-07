@@ -7,15 +7,33 @@ const projects = [
     title: "Whisper",
     viewlink: "https://whisper-app-fa6u.onrender.com/",
     sourcecodelink: "https://github.com/Niket576/Whisper_App.git",
-    para: `Whisper is a real-time language exchange platform built with the MERN stack. 
+    para: `A real-time language exchange platform built with the MERN stack. 
     It offers seamless text, audio, and video chat using WebRTC and Socket.io, plus a 
     customizable interface with 32 themes. Whether you're learning a new language or 
     connecting globally, Whisper makes communication effortless and engaging.`,
   },
 
-  { id: "02", title: "Graphics design" },
+  {
+    id: "02",
+    title: "Whisper",
+    viewlink: "https://whisper-app-fa6u.onrender.com/",
+    sourcecodelink: "https://github.com/Niket576/Whisper_App.git",
+    para: `A real-time language exchange platform built with the MERN stack. 
+    It offers seamless text, audio, and video chat using WebRTC and Socket.io, plus a 
+    customizable interface with 32 themes. Whether you're learning a new language or 
+    connecting globally, Whisper makes communication effortless and engaging.`,
+  },
 
-  { id: "03", title: "Social media" },
+  {
+    id: "03",
+    title: "Whisper",
+    viewlink: "https://whisper-app-fa6u.onrender.com/",
+    sourcecodelink: "https://github.com/Niket576/Whisper_App.git",
+    para: `A real-time language exchange platform built with the MERN stack. 
+    It offers seamless text, audio, and video chat using WebRTC and Socket.io, plus a 
+    customizable interface with 32 themes. Whether you're learning a new language or 
+    connecting globally, Whisper makes communication effortless and engaging.`,
+  },
 
   {
     id: "04",
