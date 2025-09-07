@@ -29,7 +29,7 @@ const projects = [
     title: "Pice",
     viewlink: "http://localhost:8081/",
     sourcecodelink: "https://github.com/Niket576/Pice_Mobile.git",
-    para: `A cross-platform recipe app built with the PERN stack and Expo. It features secure Clerk 
+    para: `A recipe app built with the PERN stack and Expo. It features secure Clerk 
     authentication, real-time search, and personalized recipe filtering. With embedded YouTube tutorials 
     and a persistent favorites system, Pice delivers an engaging, interactive, and user-friendly cooking 
     experience for food lovers.`,
