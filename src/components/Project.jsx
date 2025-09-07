@@ -19,9 +19,9 @@ const projects = [
     viewlink: "http://radiant-selkie-aaf49e.netlify.app/",
     sourcecodelink: "https://github.com/Niket576/Maison.git",
     para: `A modern e-commerce platform built with the MERN stack. It features 
-    secure JWT-based authentication, Stripe-powered checkout, and dynamic coupons. With 
-    Redis caching and optimized backend performance, Maison delivers fast, reliable shopping 
-    across 50+ products and 10+ categories—designed for scale and smooth user experience.`,
+    secure JWT authentication, Stripe-powered checkout, and dynamic coupons. With Redis 
+    caching and optimized backend performance, Maison delivers fast, reliable shopping across 
+    50+ products and 10+ categories—designed for scale and smooth user experience.`,
   },
 
   {
@@ -32,7 +32,7 @@ const projects = [
     para: `A cross-platform recipe app built with the PERN stack and Expo. It features 
     secure Clerk-based authentication, real-time search, and personalized recipe filtering. With 
     embedded YouTube tutorials and a persistent favorites system, Pice delivers an engaging, 
-    interactive, and user-friendly cooking experience for food lovers and culinary enthusiasts worldwide.`,
+    interactive, and user-friendly cooking experience for food lovers.`,
   },
 
   {
