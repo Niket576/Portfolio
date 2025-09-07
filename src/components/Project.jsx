@@ -18,10 +18,10 @@ const projects = [
     title: "Maison",
     viewlink: "https://maison-os9f.onrender.com",
     sourcecodelink: "https://github.com/Niket576/Maison.git",
-    para: `A modern e-commerce platform built with the MERN stack. It features secure JWT 
-    authentication, Stripe-powered checkout, and dynamic coupons. With Redis caching and 
-    optimized backend performance, Maison delivers fast, reliable shopping across 50+ products 
-    and 10+ categories—designed for scale and smooth user experience.`,
+    para: `A modern e-commerce platform built with the MERN stack. It features secure 
+    JWT authentication, Stripe checkout, and dynamic coupons. With Redis caching and 
+    optimized backend performance, Maison delivers fast, reliable shopping across 50+ 
+    products and 10+ categories—built for scale and smooth user experience.`,
   },
 
   {
