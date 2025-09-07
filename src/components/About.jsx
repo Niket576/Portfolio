@@ -18,15 +18,16 @@ const About = () => {
           />
         </div>
         <div className='md:w-70% mt-12 md:mt-20 md:mr-20 space-y-2 order-2 md:order-1'>
-            <p>
-              I am an experienced Frontend Developer with over a decade of professional 
-              expertise in the field. Throughout my career, I have had the privilege of 
-              collaborating with prestigious organizations, contributing to their success
-               and growth.
+            <p className='text-justify'>
+              I am s software engineer with a strong foundation in programming, focused on solving real
+              world prblems and building efficient, scalable soulutions. My passion for the technology is
+              reflected in the curiosity, dedication, and effort I bring to every project I worked on.
+              
             </p>
             <p>
-              My passion for frontend development is not only reflected in my extensive 
-              experience but also in the enthusiasm and dedication I bring to each project.
+              I thrive in collaborative enviroments, where I can share ideas, learn from others, and take
+              on challenges that help me grow. Beyond tech, I enjoy playing football to stay active and 
+              exploring new places, embracing fresh experiences and perspective.
             </p>
             <div className='pt-10 space-y-3 '>
                 <div className="flex flex-col md:flex-row items-center hover:scale-110 duration-300">

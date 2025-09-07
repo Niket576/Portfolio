@@ -10,6 +10,9 @@ import { SiExpress } from "react-icons/si";
 import { IoLogoReact } from "react-icons/io5";
 import { FaNodeJs } from "react-icons/fa";
 
+import { PiHandWavingBold } from "react-icons/pi";
+
+
 import { ReactTyped } from "react-typed";
 
 import pic from '/public/Niket_img.jpg';
@@ -33,12 +36,11 @@ const Home = () => {
               />
             </div>
             <br />
-            <p className='text-sm md:text-md text-justify'>
-              A checksum is a value that represents the number of bits 
-              in a transmission message.IT professionals use it to detect 
-              high-level errors within data transmissions. Prior to transmission, 
-              every piece of data or file can be assigned a checksum value after 
-              running a cryptographic hash function.
+            <p className='text-sm md:text-md text-justify '>
+              Hi, I'm NIKET CHAUDHARY - a tech enthusiast and web developer.
+              I enjoy building things that seamlessly blends creativity with technologies, 
+              transforming ideas into reality. This is my portfolio and feel free to explore
+              my works and connect with me.
             </p>
             <br />
             {/* social media icons */}
@@ -96,7 +98,7 @@ const Home = () => {
               </div>
               <div>
                 <a
-                  href='https://github.com/dashboard'
+                  href='https://github.com/Niket576/Portfolio.git'
                   target='_blank'
                   download 
                   className='px-7 py-2 border-2 border-white rounded-full text-white hover:border-blue-800 hover:text-white tansition duration-300'

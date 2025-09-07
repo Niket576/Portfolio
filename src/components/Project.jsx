@@ -6,7 +6,10 @@ const projects = [
     title: "TextTool",
     viewlink: "https://niket576.github.io/TextTool/",
     sourcecodelink: "https://github.com/Niket576/TextTool.git",
-    para: "Web development is the process of building process of building process of building process of building process of building building helllo howare your are you doing well and wha tcan i do" },
+    para: `TextTool is an efficient text utility designed to simplify text processing. With
+            its intuitive interface and essential text functions, it's the perfect companion
+            for students, writers, and professionals who need a simple yet powerful text editor.
+            Try TextTool today & streamline your text editing experience!`},
   { id: "02", title: "Graphics design" },
   { id: "03", title: "Social media" },
   { id: "04", title: "App design" },
@@ -33,12 +36,12 @@ const Project = () => {
               </h3>
             </div>
             <div className="pb-1 h-[150px]">
-              <p className="text-gray-300 mt-2">
+              <p className="text-gray-300 mt-2 text-sm text-justify">
                 {/* Web development is the process of building, programming... */}
                 {project.para}
               </p>
             </div>
-            <div className="flex gap-2">
+            <div className="flex gap-2 mt-2">
               <div>
                 <p className="mt-4 text-white font-medium flex items-center gap-2">
                   <a 
