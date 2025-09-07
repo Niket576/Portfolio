@@ -1,28 +1,47 @@
 import React from "react";
-import './Project.css';
+import "./Project.css";
 
 const projects = [
-  { id: "01", 
+  {
+    id: "01",
+    title: "Whisper - Language Exchange Platform",
+    viewlink: "https://whisper-app-fa6u.onrender.com/",
+    sourcecodelink: "https://github.com/Niket576/Whisper_App.git",
+    para: `A real-time communication platform for language learners featuring peer-to-peer video calls, 
+    instant messaging, and customizable themes. Built with the MERN stack, it supports secure user authentication, 
+    dynamic state management, and a scalable friends system for 1,000+ users. Optimized frontend performance using 
+    TanStack Query and custom hooks, and delivered a highly personalized UI with 32 Tailwind-based themes.`,
+  },
+
+  { id: "02", title: "Graphics design" },
+
+  { id: "03", title: "Social media" },
+
+  {
+    id: "04",
     title: "TextTool",
     viewlink: "https://niket576.github.io/TextTool/",
     sourcecodelink: "https://github.com/Niket576/TextTool.git",
     para: `TextTool is an efficient text utility designed to simplify text processing. With
             its intuitive interface and essential text functions, it's the perfect companion
             for students, writers, and professionals who need a simple yet powerful text editor.
-            Try TextTool today & streamline your text editing experience!`},
-  { id: "02", title: "Graphics design" },
-  { id: "03", title: "Social media" },
-  { id: "04", title: "App design" },
+            Try TextTool today & streamline your text editing experience!`,
+  },
+
   { id: "05", title: "Digital marketing" },
+
   { id: "06", title: "Content writing" },
 ];
 
 const Project = () => {
   return (
-    <div name="Projects" className='max-w-screen-2xl container mx-auto px-4 md:px-20 my-16 text-white mb-20'>
-        <div className='flex justify-center'>
-            <h1 className='text-5xl font-bold mb-2 mt-10 projects'>PROJECTS</h1>
-        </div>
+    <div
+      name="Projects"
+      className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-16 text-white mb-20"
+    >
+      <div className="flex justify-center">
+        <h1 className="text-5xl font-bold mb-2 mt-10 projects">PROJECTS</h1>
+      </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 my-10 ">
         {projects.map((project) => (
           <div
@@ -44,10 +63,10 @@ const Project = () => {
             <div className="flex gap-2 mt-2">
               <div>
                 <p className="mt-4 text-white font-medium flex items-center gap-2">
-                  <a 
+                  <a
                     href={project.viewlink}
                     target="_blank"
-                    className='px-5 py-1 border-2 border-white rounded-full text-white hover:border-blue-800 hover:text-white tansition duration-300'
+                    className="px-5 py-1 border-2 border-white rounded-full text-white hover:border-blue-800 hover:text-white tansition duration-300"
                   >
                     View
                     {/* <span className="text-xl">→</span> */}
@@ -56,10 +75,10 @@ const Project = () => {
               </div>
               <div>
                 <p className="mt-4 text-white font-medium flex items-center gap-2">
-                  <a 
+                  <a
                     href={project.sourcecodelink}
                     target="_blank"
-                    className='px-5 py-1 border-2 border-white rounded-full text-white hover:border-blue-800 hover:text-white tansition duration-300'
+                    className="px-5 py-1 border-2 border-white rounded-full text-white hover:border-blue-800 hover:text-white tansition duration-300"
                   >
                     Source Code
                     {/* <span className="text-xl">→</span> */}
