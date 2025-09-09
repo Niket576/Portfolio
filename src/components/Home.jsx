@@ -114,7 +114,7 @@ const Home = () => {
             <div className="pt-10 flex gap-x-5">
               <div>
                 <a
-                  href="https://drive.google.com/file/d/14zIxNj3xeaNtlins5hvLXMC0TXRjpWL0/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1Sup7yqzsO9v9O0QXCFzPomI0B3cBO3_y/view?usp=sharing"
                   target="_blank"
                   download
                   className="px-6 py-2 border-2 border-white rounded-full text-white hover:border-blue-800 hover:text-white tansition duration-300"
